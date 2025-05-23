@@ -4,6 +4,7 @@ import Service from '@/components/Service';
 import News from '@/components/News';
 import Contact from '@/components/Contact';
 import Accordion from '@/components/Accordion';
+import Stats from '@/components/Stats';
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
         </section>
         <section id='navigation'>
           <Product />
+        </section>
+        <section id='stats'>
+          <Stats/>
         </section>
         <section id='faq'>
           <Accordion/>
