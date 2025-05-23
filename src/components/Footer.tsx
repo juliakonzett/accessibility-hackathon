@@ -23,7 +23,6 @@ export default function Footer() {
       <div className='flex flex-row justify-between w-full'>
         {/* Kontakt */}
         <div className='flex flex-col gap-2'>
-          <span>Kontakt</span>
           <span>Julia Konzett & Dominik Illmer</span>
         </div>
 
