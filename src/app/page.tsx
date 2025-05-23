@@ -1,8 +1,8 @@
 import Intro from '@/components/Intro';
-import ReducedNavigation from '@/components/ReducedNavigation';
-import Scaling from '@/components/Scaling';
-import HighContrast from '@/components/HighContrast';
-import BackToTop from '@/components/BackToTop';
+import Product from '@/components/Product';
+import Service from '@/components/Service';
+import News from '@/components/News';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -12,16 +12,16 @@ export default function Home() {
           <Intro />
         </section>
         <section id='navigation'>
-          <ReducedNavigation />
+          <Product />
         </section>
         <section id='scaling'>
-          <Scaling />
+          <Service />
         </section>
         <section id='contrast'>
-          <HighContrast />
+          <News />
         </section>
         <section id='backToTop'>
-          <BackToTop />
+          <Contact />
         </section>
       </div>
     </main>

@@ -24,9 +24,7 @@ export default function Footer() {
         {/* Kontakt */}
         <div className='flex flex-col gap-2'>
           <span>Kontakt</span>
-          <span>Julia Konzett</span>
-          <span>jko9561@students.fhv.at</span>
-          <span>Fachhochschule Vorarlberg</span>
+          <span>Julia Konzett & Dominik Illmer</span>
         </div>
 
         {/* Navigation */}
@@ -36,28 +34,28 @@ export default function Footer() {
             tabIndex={0}
             href='#navigation'
             className='custom-focus'>
-            Reduzierte Navigation
+            Produkte
           </Link>
           <Link
             aria-label='Scrollt zum Abschnitt der Seite der Skalierungsfunktion'
             tabIndex={0}
             href='#scaling'
             className='custom-focus'>
-            Skalierungsfunktion
+            Leistungen
           </Link>
           <Link
             aria-label='Scrollt zum Abschnitt der Seite der Hochkontrastfunktion'
             tabIndex={0}
             href='#contrast'
             className='custom-focus'>
-            Hochkontrast
+            News
           </Link>
           <Link
             aria-label='Scrollt zum Abschnitt der Seite des Back to Top Buttons'
             tabIndex={0}
             href='#backToTop'
             className='custom-focus'>
-            Back to Top
+            Kontakt
           </Link>
         </div>
       </div>
