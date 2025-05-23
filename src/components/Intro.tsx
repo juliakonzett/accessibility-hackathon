@@ -4,13 +4,14 @@ export default function Intro() {
       <h1 className='font-semibold text-6xl'>
         Auswirkungen des Barrierefreiheitsgesetzes
       </h1>
-      <h2 className='font-medium text-4xl'>Design Science</h2>
-      <p className='font-serif italic'>- Bachelorarbeit von Julia Konzett</p>
+      <h2 className='font-medium text-4xl'>Leitfaden</h2>
+      <p className='font-serif italic'>- Julia Konzett & Dominik Illmer</p>
       <p>
-        Die folgenden implementierten Module sind Teil des Design Science
-        Ansatzes für die oben genannte Bachelorarbeit. <br />
-        Diese Module werden entwickelt um die Barrierefreiheit im Web, mit den
-        Standards der WCAG 2.2, darzustellen. <br />
+        Im folgenden Leitfaden zeigen wir, wie sich eine einfache Website
+        mithilfe gängiger Module barrierefrei gestalten lässt. Dazu stellen wir
+        übersichtliche Bausteine vor, die nach den WCAG 2.2-Richtlinien
+        entwickelt wurden und sich leicht in jede Basis­struktur integrieren
+        lassen. <br />
         <br />
         Die Standards und Richtlinien der Web Content Accessibility Guidelines
         (WCAG) 2.2 finden Sie{' '}
