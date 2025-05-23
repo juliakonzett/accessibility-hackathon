@@ -9,7 +9,7 @@ export default function Footer() {
         aria-label='Führt zurück zur Startseite'
         className='custom-focus relative w-[3em] h-[2em]'>
         <Image
-          src='/accessibility_logo.png'
+          src='/duck-logo.png'
           alt='Ein hellblaues Logo mit einem Rollstuhlfahrer Icon in der Mitte'
           fill
           style={{ objectFit: 'contain' }}
