@@ -35,7 +35,7 @@ export default function FuncitonsBar() {
   };
 
   return (
-    <div className='functions-bar px-[20%] py-[2%] flex flex-row gap-10 bg-[#a9dced] text-black'>
+    <div className='functions-bar w-full px-[20%] py-[2%] flex flex-row gap-10 bg-[#a9dced] text-black fixed top-0'>
       <button
         onClick={toggleFontSize}
         aria-label='Textgröße umschalten (100% / 200%)'
