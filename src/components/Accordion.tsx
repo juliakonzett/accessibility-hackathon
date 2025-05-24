@@ -7,7 +7,7 @@ export default function Accordion() {
                     <summary className="cursor-pointer select-none p-4 text-lg font-semibold bg-gray-100 group-open:bg-gray-200">
                         Was ist ein Gummiente?
                     </summary>
-                    <div className="px-4 pb-4 pt-2 text-gray-700">
+                    <div className="px-4 pb-4 pt-2">
                         Eine Gummiente ist ein Bade-Spielzeug in Entenform – meistens gelb, meistens quietschend.
                     </div>
                 </details>
@@ -16,7 +16,7 @@ export default function Accordion() {
                     <summary className="cursor-pointer select-none p-4 text-lg font-semibold bg-gray-100 group-open:bg-gray-200">
                         Warum lieben Entwickler*innen Gummienten?
                     </summary>
-                    <div className="px-4 pb-4 pt-2 text-gray-700">
+                    <div className="px-4 pb-4 pt-2">
                         Beim sogenannten "Rubber Duck Debugging" erklärt man der Ente sein Problem – und findet dabei oft selbst die Lösung!
                     </div>
                 </details>
@@ -25,7 +25,7 @@ export default function Accordion() {
                     <summary className="cursor-pointer select-none p-4 text-lg font-semibold bg-gray-100 group-open:bg-gray-200">
                         Kann ich mehrere Panels gleichzeitig öffnen?
                     </summary>
-                    <div className="px-4 pb-4 pt-2 text-gray-700">
+                    <div className="px-4 pb-4 pt-2">
                         Ja! Das ist der Standard von &lt;details&gt;. Wenn du ein exklusives Verhalten willst, brauchst du JavaScript.
                     </div>
                 </details>
