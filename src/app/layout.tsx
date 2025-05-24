@@ -18,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang='de'>
       <body className='flex min-h-screen flex-col'>
-        <FuncitonsBar />
-        <Navbar />
-        <main className='flex-grow'>{children}</main>
+        <div className='fixed top-0 w-full z-50'>
+          <FuncitonsBar />
+          <Navbar />
+        </div>
+        <main className='flex-grow pt-10 z-10'>{children}</main>
         <Footer />
         <BackToTopButton />
       </body>

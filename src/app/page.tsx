@@ -3,6 +3,7 @@ import Product from '@/components/Product';
 import Service from '@/components/Service';
 import News from '@/components/News';
 import Contact from '@/components/Contact';
+import Accordion from '@/components/Accordion';
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
         </section>
         <section id='navigation'>
           <Product />
+        </section>
+        <section id='faq'>
+          <Accordion/>
         </section>
         <section id='scaling'>
           <Service />
